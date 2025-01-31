@@ -16,6 +16,7 @@
                         clifford: '#da373d',
                         green: '#179800',
                         white: '#FFFFFF',
+                        cardbg: '#EFEBE3',
                     }
                 }
             }
@@ -38,10 +39,10 @@
 
 <body>
     <!-- header section -->
-    <header  class="sora bg-gradient-to-t from-lime-100 ...">
+    <header class="sora bg-gradient-to-t from-lime-100 ...">
         <!-- nav bar section -->
         <nav class="px-8 md:px-20 lg:px-32">
-            <div class="navbar bg-base-100 justify-between">
+            <div class="navbar justify-between">
                 <div class="navbar-start">
                     <img src="c2-assets/logo-header.png" alt="">
                 </div>
@@ -67,7 +68,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-24 p-2 shadow">
                         <li><a>Product</a></li>
                         <li><a>Services</a></li>
                         <li><a>Contact us</a></li>
@@ -77,19 +78,57 @@
         </nav>
 
         <!-- hero section -->
-         <div class="px-8 md:px-20 lg:px-32 mt-20 flex flex-col items-center justify-center">
+        <div class="px-8 md:px-20 lg:px-32 mt-20 flex flex-col items-center justify-center">
             <div class="text-center">
-                <h1 class="text-6xl font-bold mb-8">Freshness <span class="text-green">You Can <br> Count</span> On, Prices You’ll Love!</h1>
-                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                <h1 class="text-6xl font-bold mb-8">Freshness <span class="text-green">You Can <br> Count</span> On,
+                    Prices You’ll Love!</h1>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got
+                    you covered every day!</p>
             </div>
             <div class="mt-9">
                 <img class="hover:animate-bounce" src="c2-assets/hero-vegetables.png" alt="">
             </div>
-         </div>
+        </div>
     </header>
 
     <!-- main section -->
-    <main></main>
+    <main>
+        <!-- service section -->
+        <section class="sora mx-8 md:mx-12 lg:mx-32 mt-24 lg:mt-32">
+            <div>
+                <h3 class="text-green text-4xl font-bold">Services</h3>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
+                    <div class="bg-cardbg flex flex-col p-8 items-center text-center rounded-xl">
+                        <div class="avatar">
+                            <div class="bg-white w-32 p-3 rounded-full">
+                                <img src="c2-assets/service.png" />
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mt-6">24/7 Services</h3>
+                        <p class="mt-3 mb-11">24/7 services refer to businesses or operations that are available to customers at all hours of the day, seven days a week, without interruption.</p>
+                    </div>
+                    <div class="bg-cardbg flex flex-col p-8 items-center text-center rounded-xl">
+                        <div class="avatar">
+                            <div class="bg-white w-32 p-3 rounded-full">
+                                <img class="" src="c2-assets/delivery.png" />
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold  mt-6">Fast Delivery</h3>
+                        <p class="mt-3 mb-11">Fast delivery refers to a service that ensures products or items are delivered to customers in a short amount of time, often within hours or a couple of days.</p>
+                    </div>
+                    <div class="bg-cardbg flex flex-col p-8 items-center text-center rounded-xl">
+                        <div class="avatar">
+                            <div class="bg-white w-32 p-3 rounded-full">
+                                <img class="w-full" src="c2-assets/healthy.png" />
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold  mt-6">Healthy Products</h3>
+                        <p class="mt-3 mb-11">These products often focus on natural ingredients, sustainability, and minimal processing to ensure quality and health benefits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- footer section -->
     <footer></footer>
