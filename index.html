@@ -14,7 +14,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        green: '#179800',
+                        green1: '#179800',
                         white: '#FFFFFF',
                         cardbg: '#EFEBE3',
                     }
@@ -39,9 +39,9 @@
 
 <body>
     <!-- header section -->
-    <header class="sora bg-gradient-to-t from-lime-100 ...">
+    <header class="mx-auto sora bg-gradient-to-t from-lime-100 ...">
         <!-- nav bar section -->
-        <nav class="px-8 md:px-20 lg:px-32">
+        <nav class="px-4 md:px-20 lg:px-32">
             <div class="navbar justify-between">
                 <div class="navbar-start">
                     <img src="c2-assets/logo-header.png" alt="">
@@ -54,10 +54,10 @@
                     </ul>
                 </div>
                 <div class="navbar-end hidden lg:flex space-x-2.5">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="# lg:text-base"><i class="fa-solid fa-magnifying-glass"></i></a>
                     <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                    <a class=" btn bg-white border-2 border-green px-6">Login</a>
-                    <a class="btn bg-green text-white px-6">Register</a>
+                    <a class=" btn bg-white border-2 border-green1 px-6">Login</a>
+                    <a class="btn bg-green1 text-white px-6">Register</a>
                 </div>
                 <div class="dropdown justify-end">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden  justify-end">
@@ -80,7 +80,7 @@
         <!-- hero section -->
         <div class="px-8 md:px-20 lg:px-32 mt-20 flex flex-col items-center justify-center">
             <div class="text-center">
-                <h1 class="text-6xl font-bold mb-8">Freshness <span class="text-green">You Can <br> Count</span> On,
+                <h1 class="text-6xl font-bold mb-8">Freshness <span class="text-green1">You Can <br> Count</span> On,
                     Prices You’ll Love!</h1>
                 <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got
                     you covered every day!</p>
@@ -96,7 +96,7 @@
         <!-- service section -->
         <section class="sora mx-8 md:mx-12 lg:mx-32 mt-24 lg:mt-32">
             <div>
-                <h3 class="text-green text-4xl font-bold">Services</h3>
+                <h3 class="text-green1 text-4xl font-bold">Services</h3>
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
                     <div class="bg-cardbg flex flex-col p-8 items-center text-center rounded-xl">
                         <div class="avatar">
@@ -128,6 +128,117 @@
                 </div>
             </div>
         </section>
+
+        <!-- popular products section -->
+         <section class="sora bg-cardbg mt-36 p-4 lg:px-32 lg:py-32">
+            <div>
+                <h3 class="text-green1 text-2xl lg:text-4xl font-bold">Popular Products</h3>
+                <div class="lg:flex gap-14 mt-12">
+                    <div class="rounded-lg lg:w-4/12 pt-16 pl-14 flex flex-col bg-gradient-to-tl from-lime-50 to-lime-500 ...">
+                        <div>
+                            <h3 class="text-white text-4xl font-bold mb-6">30% off</h3>
+                            <p class="mb-5">Discover a word of treats, toys and <br> essentials handpicked for</p>
+                            <a class="btn bg-white" href="#">Buy Now</a>
+                        </div>
+                        <div class="justify-items-end">
+                            <img src="c2-assets/vegetable-offer.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/onion.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Onion 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/tomatoe.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Tomato 500g </h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/potato2.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Potato 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/tomatoe.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Tomato 500g</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/onion.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Onion 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/tomatoe.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Tomato 500g</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/onion.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Onion 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/potato2.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Potato 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="w-[171px] h-[73px] lg:h-[118px] lg:w-[275px] p-4 bg-white rounded-lg flex space-x-4">
+                            <div class="w-[43px] h-[43px] lg:w-[86px] lg:h-[86px] rounded-xl">
+                                <img src="c2-assets/potato2.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[10px] lg:text-base"><i class="fa-solid fa-star"></i> 4.5</p>
+                                <h4 class="text-xs lg:text-xl font-medium">Potato 1 KG</h4>
+                                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
     </main>
 
     <!-- footer section -->
